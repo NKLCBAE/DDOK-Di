@@ -1,0 +1,59 @@
+
+.successPage{
+  width: 1280px;
+  height: 720px;
+  display: flex;
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
+  /* padding: 90px 0 90px 0; */
+  background-color: rgb(253, 251, 248);
+  font-family: 'YUniverse-L';
+}
+
+.successContainer {
+  background-color: #FFFFFF;
+  text-align: center;
+  width: 540px;
+  height: 270px;
+  border: solid 1px rgb(247, 244, 238);
+}
+
+.successBackBtnArea {
+  text-align: end;
+  margin: 30px 30px 0 0;
+}
+
+.successBackButton {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  font-weight: 200;
+  font-size: 15px;
+  color: #333333;
+  border: 1px solid #444444;
+  background-color: white;
+  cursor: pointer;
+}
+.successCloseBtnImg {
+  height: 12px;
+}
+
+.successBackButton:hover {
+  transform: scale(1.1);
+}
+
+.successLineArea {
+  margin-top: 30px;
+}
+
+.successPage .firstLine {
+  color: #2d2d2d;
+  font-size: 36px;
+}
+
+.successPage .secondLine {
+  margin-top: 20px;
+  font-size: 28px;
+  color: #2d2d2d;
+}

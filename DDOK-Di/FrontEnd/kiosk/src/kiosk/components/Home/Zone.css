@@ -1,0 +1,102 @@
+.zoneAImg {
+  position: relative;
+}
+
+.zoneAImg button {
+  position: absolute;
+  cursor: pointer;
+  user-select: none;
+}
+
+
+.zoneASeat{
+  position: absolute;
+  font-size: 14pt;
+  justify-content: center;
+  font-family: 'YUniverse-L';
+  color: #FFFFFF;
+  width: 36px;
+  height: 76px;
+  border-radius: 5px;
+  background-color: #333333;
+  border: none;
+  cursor: pointer;
+}
+
+.turnASeat{
+  position: absolute;
+  font-size: 14pt;
+  justify-content: center;
+  font-family: 'YUniverse-L';
+  color: #FFFFFF;
+  width: 76px;
+  height: 36px;
+  border-radius: 5px;
+  background-color: #333333;
+  border: none;
+  cursor: pointer;
+}
+
+.turnASeat:hover{
+  /* outline: 3px solid #333333; */
+  transform: scale(1.1);
+}
+
+.turnANoSeat{
+  position: absolute;
+  font-size: 12pt;
+  justify-content: center;
+  font-family: 'YUniverse-L';
+  color: #CACACA;
+  width: 76px;
+  height: 36px;
+  border-radius: 5px;
+  background-color: #F1F1F1;
+  border: none;
+}
+
+.zoneASeat:hover{
+  /* outline: 3px solid #333333; */
+  transform: scale(1.1);
+}
+.zoneANoSeat{
+  position: absolute;
+  font-size: 12pt;
+  justify-content: center;
+  font-family: 'YUniverse-L';
+  color: #CACACA;
+  width: 36px;
+  height: 76px;
+  border-radius: 5px;
+  background-color: #F1F1F1;
+  border: none;
+  cursor: default;
+}
+
+.draggable.dragging {
+  opacity: 0.5;
+}
+
+.seatSet{
+  font-size: 18px;
+  width: 100px;
+  height: 33px;
+  /* border-radius: 10px; */
+  background-color: #666666;;
+  color: #ffffff;
+  border: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 25px;
+    font-family: 'YUniverse-L';
+    cursor: pointer;
+  }
+
+.seatSet:hover{
+  cursor: pointer;
+}
+
+.zoneALoading {
+  margin-top:15%;
+  text-align: center;
+}

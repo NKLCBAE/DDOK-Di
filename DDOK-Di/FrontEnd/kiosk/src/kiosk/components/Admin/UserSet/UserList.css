@@ -1,0 +1,128 @@
+.userListPage {
+  width: 1280px;
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(244, 252, 251); */
+  font-family: 'YUniverse-L';
+}
+
+.userListContainer {
+  /* background-color: #FFFFFF; */
+  text-align: center;
+  height: 660px;
+  width: 80%;
+}
+
+.userSetToAdminBtnArea {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.userSetToAdminBtnArea button {
+    justify-content: left;
+     width: 36px;
+    height: 36px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 25px;
+    color: black;
+    border: 1px solid black;
+    justify-content: center;
+    margin-top: 5px;
+    font-family: 'YUniverse-L';
+    cursor: pointer;
+}
+
+.adminToHomeBtnArea h1 {
+  justify-content: center;
+}
+
+.userListBox {
+  height: 500px;
+  width: 100%;
+}
+
+.css-1ptx2yq-MuiInputBase-root-MuiInput-root {
+  font-family: 'YUniverse-L';
+  width: 400px;
+}
+
+.MuiDataGrid-columnHeaders {
+  font-family: 'YUniverse-L';
+  /* justify-content: center; */
+}
+
+/* 목록헤더 개별칸 */
+.MuiDataGrid-columnHeaderTitleContainer {
+  /* justify-content: center; */
+  margin-left: 10px;
+}
+
+.MuiDataGrid-main {
+  font-family: 'YUniverse-L';
+  display: inline;
+}
+
+/* .MuiDataGrid-virtualScrollerContent {
+  justify-content: center;
+} */
+
+/* 내용에서 개별칸 */
+.css-r11z79-MuiDataGrid-root .MuiDataGrid-cell--textLeft {
+  justify-content: center;
+}
+
+.MuiDataGrid-cellContent {
+  margin-left: 10px;
+}
+
+.MuiDataGrid-virtualScrollerContent button{
+  width: 60px;
+  height: 24px;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #333333;
+  border: 1px solid #6D6D6D;
+  background-color: white;
+  margin-top: 5px;
+  cursor: pointer;
+  font-family: 'YUniverse-L';
+  align-items: center;
+  display: flex;
+}
+
+.MuiDataGrid-virtualScrollerContent button:hover{
+  /* background-color: rgb(228, 253, 248); */
+  transform: scale(1.1);
+}
+
+.css-17jjc08-MuiDataGrid-footerContainer {
+  border-top: none
+}
+
+.userSetToAdminBtnArea button{
+  float: left;
+  width: 30px;
+  height: 27px;
+  border-radius: 3px;
+  border: 1px solid #999999;
+  border: none;
+  padding: 0 0 0 0;
+  background-color: #fff;
+  cursor: pointer;
+  font-family: "YUniverse-L";
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  }
+  .userSetToAdminBtnArea button:hover {
+  transform: scale(1.1);
+  /* outline: solid 1px #333333; */
+  }
+  .userSetToAdminBtnArea img {
+  width: 30px;
+  margin-top: 10px;
+  }

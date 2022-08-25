@@ -1,0 +1,181 @@
+.tabletZoneAImg {
+  position: relative;
+}
+
+.tabletZoneALoading {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 150px;
+}
+
+.tabletZoneASeat{
+  position: absolute;
+  font-size: 14pt;
+  justify-content: center;
+  font-family: 'YUniverse-L';
+  color: #CACACA;
+  width: 36px;
+  height: 76px;
+  border-radius: 5px;
+  background-color: #F1F1F1;
+  border: none;
+}
+
+.tabletZoneASeatTurn{
+  position: absolute;
+  font-size: 14pt;
+  justify-content: center;
+  font-family: 'YUniverse-L';
+  color: #CACACA;
+  width: 76px;
+  height: 36px;
+  border-radius: 5px;
+  background-color: #F1F1F1;
+  border: none;
+}
+
+.tabletZoneANoSeat{
+  position: absolute;
+  font-size: 8pt;
+  justify-content: center;
+  font-family: 'YUniverse-L';
+  color: #FFFFFF;
+  width: 36px;
+  height: 76px;
+  border-radius: 5px;
+  background-color: #333333;
+  border: none;
+  padding: 2pt 1pt 2pt 1pt;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.tabletZoneANoSeatTurn{
+  position: absolute;
+  font-size: 8pt;
+  justify-content: center;
+  font-family: 'YUniverse-L';
+  color: white;
+  width: 76px;
+  height: 36px;
+  border-radius: 5px;
+  background-color: #333333;
+  border: none;
+  padding: 2pt 1pt 2pt 1pt;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.tabletZoneANameArea {
+  font-size: 9pt;
+  margin: 0px 0 0 0;
+}
+
+.tabletZoneANoSeat .tabletZoneAPositionArea {
+  font-size: 7pt;
+  margin: 4px 0 0 0;
+}
+
+.tabletZoneANoSeatTurn .tabletZoneAPositionArea {
+  font-size: 7pt;
+  margin: 2px 0 0 0;
+}
+
+ .OnLineStatus {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: solid 1px #F1F1F1;
+  background-color: #3db887;
+  float: left;
+}
+
+.DoNotDisturbStatus {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: solid 1px #F1F1F1;
+  background-color: #d24b4e;
+  float: left;
+}
+
+.InOtherWorkStatus {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: solid 1px #F1F1F1;
+  background-color: #ffbc1f;
+  float: left;
+}
+
+.tabletZoneAStatusArea {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: solid 1px #F1F1F1;
+  margin: 0px 0 0 8px;
+}
+
+.tabletZoneAStatusArea .statusOnlineWhite {
+  width: 14px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.tabletZoneAStatusArea .statusOfflineWhite {
+  width: 12px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.tabletZoneAStatusArea .statusDoNotDisturbWhite {
+  
+  width: 12px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9px;
+}
+
+.tabletZoneAStatusArea .statusAwayWhite {
+  height: 14px;
+  justify-content: center;
+  align-items: center;
+  margin: 2px 0 0 2px;
+}
+
+.OnLine {
+  background-color: #3db887;
+}
+
+.DoNotDisturb{
+  background-color: #d24b4e;
+}
+
+.InOtherWork{
+  background-color: #ffbc1f;
+}
+
+.Status {
+width: 80px;
+justify-content: center;
+ float: left; 
+}
+
+.StatusBox{
+  height: 100px;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 75px;
+  
+}
+/* #3db887  온라인 */
+/* #3db887 다른 용무 중 */
+/* #3db887 방해금지 */

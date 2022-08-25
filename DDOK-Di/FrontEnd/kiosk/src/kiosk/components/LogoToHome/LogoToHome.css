@@ -1,0 +1,14 @@
+.LogoToHomeArea {
+  top: 40px;
+  left: 60px;
+  position: absolute;
+  border: none;
+  /* background-color: none; */
+  /* background-color: rgb(253, 251, 248); */
+  cursor: pointer;
+  width: 250px;
+}
+
+.LogoImg {
+  width: 250px;
+}

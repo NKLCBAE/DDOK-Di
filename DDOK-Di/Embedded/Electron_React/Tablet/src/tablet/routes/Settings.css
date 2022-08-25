@@ -1,0 +1,278 @@
+.settingPage {
+  width: 1280px;
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(253, 251, 248);
+  font-family: 'YUniverse-L';
+}
+
+.settingContainer {
+display: grid;
+grid-template-columns: 1fr 2fr 1fr;
+flex-direction: column;
+justify-content: center;
+align-items: start;
+background-color: #FFFFFF;
+width: 360px;
+padding-top: 20px;
+}
+
+
+.settingsToTHomeBtnARea {
+justify-content: right;
+display: flex;
+margin: 18px 0 0 0px;
+}
+.settingsToTHomeBtnARea button{
+float: left;
+width: 30px;
+height: 27px;
+border-radius: 3px;
+border: 1px solid #999999;
+border: none;
+padding: 0 0 0 0;
+background-color: #fff;
+cursor: pointer;
+font-family: "YUniverse-L";
+align-items: center;
+display: flex;
+justify-content: center;
+}
+.settingsToTHomeBtnARea button:hover {
+transform: scale(1.1);
+/* outline: solid 1px #333333; */
+}
+.settingsToTHomeBtnARea img {
+width: 18px;
+}
+
+.settingContainerBody {
+text-align: center;
+justify-content: center;
+padding: 0px 0px 25px 0px;
+height: auto;
+display: flex;
+flex-direction: column;
+}
+
+.settingContainer hr {
+background-color: rgb(253, 247, 239);
+border: 0;
+height: 1px;
+width: 220px;
+}
+
+.settingMain hr {
+background-color: rgb(253, 247, 239);
+border: 0;
+height: 1px;
+width: 220px;
+}
+
+.settingPage .titleArea {
+align-items: center;
+display: flex;
+justify-content: center;
+}
+
+.settingPage .titleArea h1 {
+margin: 12px 0 18px 0;
+}
+
+.settingMain {
+align-items: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.settingMain h2{
+/* background-color: rgb(253, 251, 248); */
+font-size: 22px;
+padding: 5px 0 5px 0;
+margin: 5px 0px 10px 0px;
+}
+
+
+.settingsForHeightBtn {
+  /* display: grid; */
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.toHide {
+  opacity: 0;
+}
+
+.settingMain h3{
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  margin: 10px 0 10px 0;
+  border-bottom: 2px solid rgb(245, 237, 228);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.deskArea {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.settingMain button{
+  font-weight: 500;
+  font-size: 20px;
+  color: #333333;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 0px 12px 0px 12px;
+  font-family: 'YUniverse-L';
+  cursor: pointer;
+  }
+  .deskArea button:hover {
+  transform: scale(1.1);
+  }
+  
+
+.settingMain button{
+font-weight: 500;
+font-size: 20px;
+color: #333333;
+border: none;
+justify-content: center;
+align-items: center;
+background-color: white;
+margin: 0px 12px 0px 12px;
+font-family: 'YUniverse-L';
+cursor: pointer;
+}
+.settingMain button:hover {
+transform: scale(1.1);
+
+}
+
+
+
+.saveAndLoad {
+align-items: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.saveAndLoad h2{
+font-size: 22px;
+margin: 15px 0 10px 0;
+}
+/* 
+.saveAndLoad p {
+font-size: 1px;
+border-bottom: 1px solid rgb(108, 85, 51);
+} */
+
+.saveAndLoadBtnArea {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+.saveAndLoadBtn {
+display: inline;
+width: 45px;
+height: 30px;
+margin: 10px 0px 10px 0px;
+text-align: center;
+justify-content: center;
+border: none;
+border-width: 10px;
+background-color: white;
+color: #333333;
+font-size: 15pt;
+border-radius: 3px;
+cursor: pointer;
+}
+
+.saveAndLoadBtn:hover{
+background-color: rgb(253, 251, 248);
+border-radius: 5px;
+transform: scale(1.1);
+
+}
+
+.saveAndLoadBtn:active{
+border: 3px solid rgb(253, 251, 248);
+background-color: rgb(253, 251, 248);
+}
+
+
+/* 저장모달 */
+.settingsInModalFont {
+  color: rgb(17 24 39);
+  font-size: 18px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  /* grid-template-columns: 1fr 5fr; */
+  align-items: center;
+  border: none;
+}
+.settingsInModalEditBtnArea {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.settingsInModalEditBtn {
+  width: 61px;
+  height: 30px;
+  border-radius: 3px;
+  font-weight: 200;
+  font-size: 18px;
+  color: #333333;
+  border: 1px solid #999999;
+  /* box-shadow: inset 1px 1px 5px #333333; */
+  margin: 0px 10px 0 10px;
+  background-color: #ffffff;
+  cursor: pointer;
+  font-family: 'YUniverse-L';
+  padding: 0;
+}
+.settingsInModalEditBtn:hover {
+  transform: scale(1.05);
+  outline: solid 1px #333333;
+  /* filter: brightness(120%); */
+}
+.settingsInModalEditBtn img{
+  margin-top: 2px;
+  height: 13px;
+}
+
+.settingsInModalCancelBtn {
+  width: 61px;
+  height: 30px;
+  border-radius: 3px;
+  font-weight: 200;
+  font-size: 18px;
+  color: #333333;
+  border: 1px solid #999999;
+  /* box-shadow: inset 1px 1px 5px #333333; */
+  margin: 0px 10px 0 10px;
+  background-color: #ffffff;
+  cursor: pointer;
+  font-family: 'YUniverse-L';
+}
+.settingsInModalCancelBtn:hover {
+  transform: scale(1.05);
+  outline: solid 1px #333333;
+  /* filter: brightness(120%); */
+}
+.settingsInModalCancelBtn img{
+  margin-top: 2px;
+  height: 11px;
+}

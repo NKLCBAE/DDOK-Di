@@ -1,0 +1,185 @@
+.adminUserEditPage {
+  width: 1280px;
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(253, 251, 248);
+  font-family: 'YUniverse-L';
+}
+
+.adminUserEditContainer {
+  background-color: #FFFFFF;
+  text-align: center;
+  justify-content: center;
+  padding: 25px 30px 35px 30px;
+  /* border-radius: 30px; */
+  width: 360px;
+  /* height: 420px; */
+}
+
+.adminUserEditBackBtnArea {
+  display: flex;
+  justify-content: end;
+}
+
+.adminUserEditBackBtnArea button {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  font-weight: 200;
+  font-size: 18px;
+  color: #333333;
+  border: 1px solid #333333;
+  background-color: #fff;
+  cursor: pointer;
+  font-family: "YUniverse-L";
+}
+
+.adminUserEditBackBtnArea button:hover {
+  transform: scale(1.1);
+  /* filter: brightness(120%); */
+}
+
+.adminUserEditBackBtnArea p:hover {
+  margin: -3px 0px 0px 0px;
+}
+
+.adminUserEditBackBtnArea p {
+  margin: -1px 0px 0px 0px;
+  overflow: visible;
+}
+
+.adminUserEditTitleArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.adminUserEditTitle {
+  color: #2d2d2d;
+  font-size: 28px;
+  margin-left: 10px;
+  margin: 25px 0 11px 18px;
+}
+
+
+.adminUserEditRowsContainer {
+  display: flex;
+  padding: 0 20px 0 20px;
+}
+
+.adminUserEditTitleArea button {
+  width: 45px;
+  height: 24px;
+  border-radius: 11px;
+  font-weight: 200;
+  font-size: 15px;
+  color: #333333;
+  border: 1px solid #333333;
+  background-color: white;
+  cursor: pointer;
+  font-family: 'YUniverse-L';
+  margin: 7px 0 0 10px;
+}
+
+.adminUserEditLeftColumn p {
+  margin-bottom: 24px;
+  margin-top: 20px;
+  padding-bottom: 8px;
+  border-bottom: solid 1px rgb(253, 251, 248);
+  color: #2d2d2d;
+}
+
+.adminUserEditRightColumn p {
+  margin: 10px 0 5px 0;
+  padding: 0px 0 6px 0;
+  border-bottom: solid 1px rgb(253, 251, 248);
+  color: #2d2d2d;
+}
+
+.adminUserEditRowsContainer input {
+  margin: 3px 0 0 0;
+  color: #2d2d2d;
+  width: 190px;
+  height: 28px;
+  border-radius: 2px;
+  padding-left: 10px;
+  border: solid 1px #b1b1b1;
+  background-color: #fff;
+  font-family: 'YUniverse-L';
+  font-size: 15px;
+}
+
+.adminUserEditRowsContainer input:focus{
+  outline: none;
+}
+
+.adminUserEditLeftColumn {
+  text-align: left;
+  width: 150px;
+  padding-top: 4px;
+}
+
+.adminUserEditRightColumn {
+  text-align: left;
+  width: 200px;
+}
+
+
+.adminUserEditBtnsArea {
+  justify-content: center;
+  display: flex;
+
+}
+
+.adminUserEditSubmitBtn {
+  width: 60px;
+  height: 30px;
+  border-radius: 3px;
+  font-weight: 200;
+  font-size: 15px;
+  color: #333333;
+  border: 1px solid #999999;
+  /* box-shadow: inset 1px 1px 5px #333333; */
+  margin: 8px 10px 0 10px;
+  background-color: #ffffff;
+  cursor: pointer;
+  font-family: 'YUniverse-L';
+}
+
+.adminUserEditSubmitBtn:hover {
+  transform: scale(1.05);
+  outline: solid 1px #333333;
+  /* filter: brightness(120%); */
+}
+
+.adminUserEditSubmitBtn img{
+  margin-top: 2px;
+  height: 13px;
+}
+
+.adminUserEditCancelBtn {
+  width: 60px;
+  height: 30px;
+  border-radius: 3px;
+  font-weight: 200;
+  font-size: 15px;
+  color: #333333;
+  border: 1px solid #999999;
+  /* box-shadow: inset 1px 1px 5px #333333; */
+  margin: 8px 10px 0 10px;
+  background-color: #ffffff;
+  cursor: pointer;
+  font-family: 'YUniverse-L';
+}
+.adminUserEditCancelBtn:hover {
+  transform: scale(1.05);
+  outline: solid 1px #333333;
+  /* filter: brightness(120%); */
+}
+
+.adminUserEditCancelBtn img{
+  margin-top: 2px;
+  height: 11px;
+}

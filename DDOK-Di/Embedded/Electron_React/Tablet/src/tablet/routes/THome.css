@@ -1,0 +1,210 @@
+
+.thomeHomeMain{
+  /* display: flex; */
+  align-items: center;
+  /* justify-content: center; */
+  width: 1280px;
+  height: 720px;
+  border: none;
+  background-color: rgb(253, 251, 248);
+  flex-direction: column;
+  font-family: 'YUniverse-L';
+}
+
+.thomeHomeTopArea{
+  display: flex;
+  align-items: center;
+}
+
+.thomePPicInnerArea{
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+  background-color: #333333;
+  margin: 100px 0 0 200px;
+}
+
+.thomePPicInnerArea img {
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+  /* margin: 50px 0 0 50px; */
+  object-fit: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+.thomeTopInfoArea {
+  width: 400px;
+  height: 310px;
+  margin: 100px 0 0 115px;
+}
+
+.thomeUserName {
+  font-size: 80px;
+  /* font-weight: 600; */
+  color: #1b1b1b;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.thomeUserPosition {
+  font-size: 36px;
+  /* font-weight: 600; */
+  color: #1b1b1b;
+  margin: 53px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.thomeUserEmail {
+  font-size: 36px;
+  /* font-weight: 600; */
+  color: #1b1b1b;
+  margin: 24px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.thomeHomeBottomArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.thomeHomeBottomBox {
+  width: 1120px;
+  height: 160px;
+  background-color: #ffffff;
+  border: solid 1px rgb(247, 244, 238);
+  padding: 30px 40px 30px 40px;
+}
+
+.thomeLinkButtons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thomeLinkButtons button {
+  /* position: relative; */
+  background: #333333;
+  border: none;
+  cursor: pointer;
+  height: 100px;
+  width: 100px;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: 'YUniverse-L';
+  border-radius: 60px;
+}
+
+.thomeLinkButtons button:hover {
+  transform: scale(1.1);
+  filter: brightness(120%);
+}
+
+.thomeLinkButtons .thomeExitImg {
+  width: 60px;
+  margin: 6px 0 0 6px;
+}
+
+.thomeLinkButtons .thomeEditInfoImg {
+  width: 56px;
+  margin: 2px 0 0 7px;
+}
+
+.thomeLinkButtons .thomeCalendarImg {
+  width: 63px;
+  margin-top: 3px;
+}
+
+.thomeStatusButton .onlineWhite {
+  width: 56px;
+  margin: 12px 0 0 0;
+}
+
+.thomeStatusButton .statusOfflineWhite {
+  width: 45px;
+  margin-top: 7px;
+}
+
+.thomeStatusButton .statusDoNotDisturbWhite {
+  width: 60px;
+  margin-top: 5px;
+}
+
+.thomeStatusButton .statusAwayWhite {
+  width: 30px;
+  margin: 0 0 0 10px;
+}
+
+.thomeLinkButtons .viewStatusImg {
+  width: 60px;
+  height: auto;
+  margin: 5px 0 0 5px;
+}
+
+.thomeLinkButtons .thomeSettingsImg {
+  width: 66px;
+  margin-top: 5px;
+}
+
+.thomeLinkButtons p {
+  font-size: 20px;
+  color: #2d2d2d;
+  font-family: 'YUniverse-L';
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/* .thomeLinkIconArea button:hover::before {
+  content: "go";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: baseline;
+  background: #333333;
+  color: rgb(255, 255, 255);
+} */
+
+.selectStatus {
+  appearance: none;
+  background-color: white;
+  height: 54px;
+  width: 300px;
+  /* border-radius: 20px; */
+  margin: 0px 50px;
+  border: solid 1px #cccccc;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  color: #2d2d2d;
+  font-size: 25px;
+  font-family: 'YUniverse-L';
+}
+
+.selectYourStatus select{
+  cursor: pointer;
+  width: 300px;
+  outline: solid 1px #333333;
+  
+  color: #1b1b1b;
+}
+
+.selectYourStatus option{
+  margin-top: 10px;
+  background-color: #ffffff;
+}
+
+
+.selectYourStatus select::-ms-expand{
+  display: none;
+}

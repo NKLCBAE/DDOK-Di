@@ -1,0 +1,995 @@
+
+.myCalendarPage {
+  padding-top: 30px;
+  /* padding-bottom: 20px; */
+  width: 1280px;
+  height: 720px;
+  /* padding-left: 90px; */
+  border: 1px solid black;
+  font-family: 'YUniverse-L';
+}
+
+.myCalendarSmallPage {
+  /* max-w-md */
+  /* max-width: 28rem; 448px */
+  /* px-4 */
+  padding-left: 20px;
+  padding-right: 20px;
+  /* mx-auto */
+  margin-left: auto;
+  margin-right: auto;
+  /* sm:px-7 md:max-w-4xl md:px-6 */
+  display: flex;
+  flex-direction: column;
+}
+
+.myCalendarToTHomeBtn {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid #999999;
+  border: none;
+  padding: 0 0 0 0;
+  background-color: #fff;
+  cursor: pointer;
+  margin: 20px 0 0 27px;
+}
+.myCalendarToTHomeBtn:hover {
+  transform: scale(1.15);
+  /* outline: solid 1px #333333; */
+}
+.myCalendarToTHomeIcon {
+  width: 18px;
+}
+
+
+.myCalendarContainerL {
+  /* md:grid md:grid-cols-2 md:divide-x md:divide-gray-200 */
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  border-right-width: 1px;
+  border-left-width: 0px;
+}
+
+.myTodoContainerM {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.myCalendarContainerS {
+  /* md:pr-14 */
+  padding-right: 60px;
+  padding-left: 60px;
+  /* width: 600px; */
+  /* border: solid 1px blue; */
+}
+
+.myCalendarContainerTop {
+  /* flex items-center */
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.myCalendarTitle {
+  /* flex-auto font-semibold text-gray-900 */
+  flex: 1 1 auto;
+  font-weight: 600;
+  color: rgb(17 24 39);
+  justify-content: center;
+  display: flex;
+  font-size: 27pt;
+  margin-top: 0px;
+}
+
+.myCalendarPrevMBtn {
+  /* -my-1.5 flex flex-none items-center justify-center p-1.5 text-gray-400 hover:text-gray-500 */
+  margin-top: 0.375rem; /* 6px */
+  margin-bottom: 0.375rem; /* 6px */
+  display: flex;
+  flex: none;
+  justify-content: center;
+  padding: 0.375rem; /* 6px */
+  color: rgb(156 163 175);
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.myCalendarPrevMBtn:hover {
+  color: rgb(107 114 128);
+  transform: scale(1.2);
+}
+
+.myCalendarNextMBtn {
+  /* -my-1.5 -mr-1.5 ml-2 flex flex-none items-center justify-center p-1.5 text-gray-400 hover:text-gray-500 */
+  margin-top: 0.375rem; /* 6px */
+  margin-bottom: 0.375rem; /* 6px */
+  margin-right: 0.375rem; /* 6px */
+  margin-left: 0.5rem; /* 8px */
+  display: flex;
+  flex: none;
+  justify-content: center;
+  padding: 0.375rem; /* 6px */
+  color: rgb(156 163 175);
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.myCalendarNextMBtn:hover {
+  color: rgb(107 114 128);
+  transform: scale(1.2);
+}
+.myCalendarNextMBtnIcon {
+  /* w-5 h-5 */
+  width: 24px;
+  height: 24px;
+}
+
+.myCalendarWeekBar {
+  /* grid grid-cols-7 mt-10 text-xs leading-6 text-center text-gray-500 */
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  margin-top: 30px; /* 2.5rem */
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 30px; /* 1.5rem */
+  text-align: center;
+  color: rgb(107 114 128);
+}
+
+
+.myCalendarDayStartMon {
+  /* col-start-2 */
+  grid-column-start: 2;
+}
+.myCalendarDayStartTue {
+  /* col-start-3 */
+  grid-column-start: 3;
+}
+.myCalendarDayStartWed {
+  /* col-start-4 */
+  grid-column-start: 4;
+}
+.myCalendarDayStartThu {
+  /* col-start-5 */
+  grid-column-start: 5;
+}
+.myCalendarDayStartFri {
+  /* col-start-6 */
+  grid-column-start: 6;
+}
+.myCalendarDayStartSat {
+  /* col-start-7 */
+  grid-column-start: 7;
+}
+
+
+.myCalendarDaysDay {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+ .myCalendarDaysArea {
+  /* grid grid-cols-7 mt-2 text-sm */
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  font-size: 18px;
+  line-height: 30px;
+  height: 480px;
+ }
+
+ .myCalendarDaysDay button {
+  height: 50px;
+  width: 50px;
+ }
+ .myCalendarDaysDayBtnSelected {
+  /* text-white */
+  color: rgb(255 255 255);
+  border: none;
+  cursor: pointer;
+ }
+ .myCalendarDaysDayBtnToday {
+  /* text-red-500 */
+  color: rgb(239 68 68);
+  border: none;
+  cursor: pointer;
+  background-color: white;
+ }
+ .myCalendarDaysDayBtnBgRed {
+  /* bg-red-500 */
+  background-color: rgb(239 68 68);
+ }
+ .myCalendarDaysDayBtnGrayFour {
+  /* text-gray-400 */
+  color: rgb(156 163 175);
+  border: none;
+  cursor: pointer;
+  background-color: white;
+ }
+ .myCalendarDaysDayBtnCurrentWeekDays {
+  /* text-gray-900 */
+  color: rgb(17 24 39);
+  border: none;
+  cursor: pointer;
+  background-color: white;
+ }
+ .myCalendarDaysDayBtnSelectedBg {
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background-color: #333333;
+  /* bg-gray-900 */
+  /* background-color: rgb(19, 25, 38); */
+ }
+ .myCalendarDaysDayHover:hover {
+  /* hover:bg-gray-200' */
+  background-color: rgb(229 231 235);
+ }
+ .myCalendarDaysDayBtnFwSemiB {
+  /* font-semibold */
+  font-weight: 600;
+ }
+ .myCalendarDaysDayBtnEtc {
+  /* mx-auto flex h-8 w-8 items-center justify-center rounded-full */
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  height: 2rem; /* 32px */
+  width: 2rem; /* 32px */
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+ }
+
+
+
+.myCalendarDaysToDoArea {
+  /* w-1 h-1 mx-auto mt-1 */
+  /* width: 0.25rem; 4px */
+  height: 4px; 
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 4px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-rows: 4px;
+  align-items: center;
+}
+
+.myCalendarHide {
+  opacity: 0;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.myCalendarDaysToDoCircleVERYIMPORTANT {
+  /* w-1 h-1 rounded-full bg-sky-500 */
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  /* background-color: rgb(225 29 72); */
+  /* background-color: rgb(70, 41, 17); */
+
+  background-color: rgb(185 28 28);
+  position: absolute;
+  z-index: 3;
+}
+
+.myCalendarDaysToDoCircleIMPORTANT {
+  /* w-1 h-1 rounded-full bg-sky-500 */
+  /* top: 10px; */
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  /* background-color: rgb(251 146 60); */
+  /* background-color: rgb(242, 188, 144); */
+  background-color: rgb(243, 73, 73);
+  position: absolute;
+  z-index: 2;
+}
+
+.myCalendarDaysToDoCircleNORMAL {
+  /* w-1 h-1 rounded-full bg-sky-500 */
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  /* background-color: rgb(252 211 77); */
+  /* background-color: rgb(195, 111, 43); */
+  background-color: rgb(247, 142, 142);
+  position: absolute;
+  z-index: 1;
+}
+
+.myCalendarDaysToDoArea .calendarViewCountMeeting {
+  display: flex;
+  margin: 12px 0px 0px 0px;
+  font-size: 13px;
+  align-items: center;
+ }
+
+
+.myCalendarSelectedDateContainer {
+  border-left: 1px solid #d1d1d1;
+  padding-left: 50px;
+  padding-right: 30px;
+  margin-top: 10px;
+  height: 630px;
+  overflow: auto;
+}
+.myCalendarSelectedDateContainerText {
+  /* font-semibold text-gray-900 */
+  font-weight: 600;
+  color: rgb(17 24 39);
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.myCalendarToDoListArea {
+  /* mt-4 space-y-1 text-sm leading-6 text-gray-500 */
+  margin: 4px 0px 4px 0px;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb(107 114 128);
+  padding-left: 0px;
+}
+
+.myCalendarToDoListNoMeeting {
+  /* justify-content: center; */
+  display: flex;
+  margin-top: 40px;
+}
+
+.myCalendarToDoPlusBtn {
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.myCalendarToDoPlusBtn img {
+  width: 20px;
+}
+.myCalendarToDoPlusBtn:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+.myTodoContainerL {
+  /* flex items-center px-4 py-2 space-x-4 group rounded-xl focus-within:bg-gray-100 hover:bg-gray-100 */
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 1rem; /* 16px */
+  padding-top: 0.5rem; /* 8px */
+  padding-bottom: 0.5rem; /* 8px */
+  margin-left: 0px;
+  /* group */
+  border-radius: 0.75rem; /* 12px */
+}
+.myTodoContainerL:focus-within {
+  background-color: rgb(243 244 246);
+}
+.myTodoContainerL:hover {
+  background-color: rgb(243 244 246);
+}
+
+.myTodoContainerM {
+  /* flex-auto */
+  flex: 1 1 auto;
+}
+
+.myTodoContainerS {
+  width: 280px;
+}
+
+.myTodoContainerTitle {
+  /* text-gray-900 */
+  color: rgb(17 24 39);
+  /* font-size: 11pt; */
+}
+
+.myTodoContainerTime {
+  /* mt-0.5 */
+  margin-top: 0.125rem; /* 2px */
+}
+
+.myToDoContainerMenu {
+  /* relative opacity-0 focus-within:opacity-100 group-hover:opacity-100 */
+  position: relative;
+  opacity: 0;
+}
+.myToDoContainerMenu:focus-within {
+  opacity: 1;
+}
+.myToDoContainerMenu:hover {
+  opacity: 1;
+}
+
+.myToDoContainerMenuBtn {
+  /* -m-2 flex items-center rounded-full p-1.5 text-gray-500 hover:text-gray-600 */
+  margin: 0.5rem; /* 8px */
+  display: flex;
+  align-items: center;
+  border-radius: 100%;
+  padding: 0.375rem; /* 6px */
+  color: rgb(107 114 128);
+  border: none;
+  cursor: pointer;
+  background-color: rgb(243 244 246);
+}
+.myToDoContainerMenuBtn:hover {
+  color: rgb(75 85 99);
+}
+
+.myToDoContainerMenuDots {
+  /* w-6 h-6 */
+  width: 1.5rem; /* 24px */
+  height: 1.5rem; /* 24px */
+}
+
+.myToDoContainerTransitionEnter {
+  /* transition ease-out duration-100 */
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  transition-duration: 100ms;
+}
+.myToDoContainerTransitionEnterForm {
+  /* transform opacity-0 scale-95 */
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  opacity: 0;
+  transform: scale(.95);
+}
+.myToDoContainerTransitionEnterTo {
+  /* transform opacity-100 scale-100 */
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  opacity: 1;
+  transform: scale(1);
+}
+.myToDoContainerTransitionLeave {
+  /* transition ease-in duration-75 */
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+  transition-duration: 75ms;
+}
+.myToDoContainerTransitionLeaveForm {
+  /* transform opacity-100 scale-100 */
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  opacity: 1;
+  transform: scale(1);
+}
+.myToDoContainerTransitionLeaveTo {
+  /* transform opacity-0 scale-95 */
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  opacity: 0;
+  transform: scale(.95);
+}
+
+.myToDoContainerTransitionMenu {
+  /* absolute right-0 z-10 mt-2 origin-top-right bg-white rounded-md shadow-lg w-36 ring-1 ring-black ring-opacity-5 focus:outline-none */
+  position: absolute;
+  right: 0px;
+  z-index: 10;
+  margin-top: 0.5rem; /* 8px */
+  transform-origin: top right;
+  background-color: white;
+  border-radius: 0.375rem; /* 6px */
+  width: 9rem; /* 144px */
+  box-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  --tw-ring-color: rgb(0 0 0);
+  --tw-ring-opacity: 0.05;
+}
+.myToDoContainerTransitionMenu:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.myToDoContainerTransitionMenuDiv {
+  padding-top: 0.25rem; /* 4px */
+  padding-bottom: 0.25rem; /* 4px */
+  border-radius: 8px;
+  border: solid 1px rgb(229 231 235);
+
+  box-shadow: 0 5px 10px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.myToDoContainerTransitionMenuIf {
+  /* bg-gray-100 text-gray-900 */
+  background-color: rgb(243 244 246);
+  color: rgb(17 24 39);
+}
+.myToDoContainerTransitionMenuElseOne {
+  /* text-gray-700 */
+  color: rgb(55 65 81);
+}
+.myToDoContainerTransitionMenuBox {
+  /* block px-4 py-2 text-sm */
+  display: block;
+  padding-left: 1rem; /* 16px */
+  padding-right: 1rem; /* 16px */
+  padding-top: 0.5rem; /* 8px */
+  padding-bottom: 0.5rem; /* 8px */
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+  text-decoration: none;
+}
+
+
+
+
+.myTodoEditSubmitBtn {
+  width: 60px;
+  height: 30px;
+  border-radius: 3px;
+  font-weight: 200;
+  font-size: 15px;
+  color: #333333;
+  border: 1px solid #999999;
+  /* box-shadow: inset 1px 1px 5px #333333; */
+  margin: 8px 10px 0 10px;
+  background-color: #ffffff;
+  cursor: pointer;
+  font-family: 'YUniverse-L';
+}
+.myTodoEditSubmitBtn:hover {
+  transform: scale(1.05);
+  outline: solid 1px #333333;
+  /* filter: brightness(120%); */
+}
+.myTodoEditSubmitBtn img{
+  margin-top: 2px;
+  height: 13px;
+}
+
+
+.myTodoInModalContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+
+
+
+
+.myTodoInModalFont {
+  color: rgb(17 24 39);
+  font-size: 18px;
+  margin-bottom: 8px;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  align-items: center;
+}
+.myTodoInModalFont input {
+  height: 22px;
+  border-bottom: solid 1px #b1b1b1;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 16px;
+  font-family: 'YUniverse-L';
+  padding: 0px 4px 0px 3px;
+}
+.myTodoInModalFont input:focus {
+  border-bottom: solid 1px #999999;
+  outline: none;
+  -webkit-box-shadow: 0 0 4px rgb(138, 138, 138);
+      box-shadow: 0 0 4px rgb(138, 138, 138);
+}
+
+
+
+.myTodoInModalFontDate {
+  color: rgb(17 24 39);
+  font-size: 18px;
+  margin-bottom: 08px;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  align-items: center;
+}
+.myTodoInModalFontDate input {
+  height: 22px;
+  border-bottom: solid 1px #b1b1b1;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 16px;
+  font-family: 'YUniverse-L';
+  padding: 0px 4px 0px 3px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+.myTodoInModalFontDate input:focus {
+  border-bottom: solid 1px #999999;
+  outline: none;
+  -webkit-box-shadow: 0 0 4px rgb(138, 138, 138);
+      box-shadow: 0 0 4px rgb(138, 138, 138);
+}
+.myTodoInModalFontDate p {
+  font-weight: 600;
+  display: inline;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.myTodoInModalFont select {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Open Sans', 'Helvetica Neue', 'Segoe UI', 'Calibri', 'Arial', sans-serif;
+  font-size: 18px;
+  color: #60666d;
+  border: solid 1px #b1b1b1;
+}
+/* .myTodoInModalFont select .ss {
+  color: red;
+} */
+.myTodoInModalFont select:focus {
+  border-bottom: solid 1px #999999;
+  outline: none;
+  -webkit-box-shadow: 0 0 4px rgb(138, 138, 138);
+      box-shadow: 0 0 4px rgb(138, 138, 138);
+}
+.myTodoInModalFont p {
+  font-weight: 600;
+  display: inline;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.myTodoModalContentInput {
+  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  align-items: start;
+}
+.myTodoModalContentInput p {
+  color: rgb(17 24 39);
+  font-weight: 600;
+  display: inline;
+  font-size: 18px;
+  margin-top: 0px;
+}
+.myTodoModalContentInput textarea {
+  /* width: 250px; */
+  height: 60px;
+  /* border: none; */
+  /* border-bottom: solid 1px #e1e1e1; */
+  border: solid 1px #b1b1b1;
+  border-radius: 3px;
+  font-size: 16px;
+  font-family: 'YUniverse-Ldefdwe';
+  padding: 5px 5px 5px 5px;
+  resize: none;
+}
+.myTodoModalContentInput textarea:focus {
+  /* border: 1px #ffffff; */
+  /* border-bottom: solid 1px #999999; */
+  outline: solid 1px rgb(138, 138, 138);
+  outline: none;
+  -webkit-box-shadow: 0 0 4px rgb(138, 138, 138);
+      box-shadow: 0 0 4px rgb(138, 138, 138);
+}
+.myTodoInModalSaveBtnArea {
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+.myTodoInModalSaveBtn {
+  width: 61px;
+  height: 30px;
+  border-radius: 3px;
+  font-weight: 200;
+  font-size: 18px;
+  color: #333333;
+  border: 1px solid #999999;
+  padding: 0px;
+  /* box-shadow: inset 1px 1px 5px #333333; */
+  margin: 8px 10px 0 10px;
+  background-color: #ffffff;
+  cursor: pointer;
+  font-family: 'YUniverse-L';
+}
+.myTodoInModalSaveBtn:hover {
+  transform: scale(1.05);
+  outline: solid 1px #333333;
+  /* filter: brightness(120%); */
+}
+.myTodoInModalSaveBtn img{
+  margin-top: 3px;
+  height: 15px;
+}
+
+
+
+.myTodoInModalEditBtnArea {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.myTodoInModalEditBtn {
+  width: 61px;
+  height: 30px;
+  border-radius: 3px;
+  font-weight: 200;
+  font-size: 18px;
+  color: #333333;
+  border: 1px solid #999999;
+  /* box-shadow: inset 1px 1px 5px #333333; */
+  margin: 0px 10px 0 10px;
+  background-color: #ffffff;
+  cursor: pointer;
+  font-family: 'YUniverse-L';
+}
+.myTodoInModalEditBtn:hover {
+  transform: scale(1.05);
+  outline: solid 1px #333333;
+  /* filter: brightness(120%); */
+}
+.myTodoInModalEditBtn img{
+  margin-top: 2px;
+  height: 13px;
+}
+
+.myTodoInModalCancelBtn {
+  width: 61px;
+  height: 30px;
+  border-radius: 3px;
+  font-weight: 200;
+  font-size: 18px;
+  color: #333333;
+  border: 1px solid #999999;
+  /* box-shadow: inset 1px 1px 5px #333333; */
+  margin: 0px 10px 0 10px;
+  background-color: #ffffff;
+  cursor: pointer;
+  font-family: 'YUniverse-L';
+}
+.myTodoInModalCancelBtn:hover {
+  transform: scale(1.05);
+  outline: solid 1px #333333;
+  /* filter: brightness(120%); */
+}
+.myTodoInModalCancelBtn img{
+  margin-top: 2px;
+  height: 11px;
+}
+
+
+.myTodoInModalTitle {
+  /* text-gray-900 */
+  /* color: rgb(0, 79, 250); */
+  font-size: 21pt;
+}
+.myTodoInModalTitle input {
+  font-size: 21pt;
+}
+
+
+
+.myTodoSpanTitle {
+  font-size: 17.5pt;
+  margin-bottom: 18px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.myTodoToDoCircleVERYIMPORTANT {
+  /* w-1 h-1 rounded-full bg-sky-500 */
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  /* background-color: rgb(225 29 72); */
+  /* background-color: rgb(70, 41, 17); */
+  background-color: rgb(185 28 28);
+  margin-right: 10px;
+}
+.myTodoToDoCircleIMPORTANT {
+  /* w-1 h-1 rounded-full bg-sky-500 */
+  /* top: 10px; */
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  /* background-color: rgb(251 146 60); */
+  /* background-color: rgb(242, 188, 144); */
+  background-color: rgb(243, 73, 73);
+  margin-right: 10px;
+}
+.myTodoToDoCircleNORMAL {
+  /* w-1 h-1 rounded-full bg-sky-500 */
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  /* background-color: rgb(252 211 77); */
+  /* background-color: rgb(195, 111, 43); */
+  background-color: rgb(247, 142, 142);
+  margin-right: 10px;
+}
+
+.myTodoSpanContent {
+  font-size: 17px;
+  margin-top: 0px;
+  margin-bottom: 7px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+}
+.myTodoSpanContent p{
+  font-weight: 600;
+  display: inline;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.myTodoSpanContentBottom {
+  font-size: 17px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+}
+.myTodoSpanContentBottom p {
+  font-weight: 600;
+  display: inline;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.myTodoNonSpanTitle {
+  font-size: 17.5pt;
+  margin-top: 18px;
+  margin-bottom: 12px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.myTodoNonSpanContent {
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 3px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+}
+.myTodoNonSpanContent p{
+  font-weight: 600;
+  display: inline;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+
+.todoSpanCloseBtnArea {
+  display: flex;
+  justify-content: center;
+}
+.todoSpanCloseBtnArea button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  width: 30px;
+  height: 20px;
+}
+.todoSpanCloseBtnArea img {
+  opacity: 0.4;
+  width: 8px;
+}
+.todoSpanCloseBtnArea button:hover {
+  transform: scale(1.4);
+}
+
+.todoSpanOpenBtnArea {
+  display: flex;
+  justify-content: center;
+}
+.todoSpanOpenBtnArea button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+.todoSpanOpenBtnArea img {
+  opacity: 0.4;
+  width: 8px;
+}
+.todoSpanOpenBtnArea button:hover {
+  transform: scale(1.4);
+}
+
+
+.myTodoTitleNBtnArea {
+  display: flex;
+  justify-content: space-between;
+}
+
+.myTodoEditDeleteBtnArea {
+  margin-top: 10px;
+  display: flex;
+}
+.myTodoEditBtn {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+.myTodoEditBtn img {
+  width: 20px;
+}
+.myTodoEditBtn:hover {
+  transform: scale(1.1);
+}
+.myTodoDeleteBtn {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+.myTodoDeleteBtn img {
+  width: 20px;
+}
+.myTodoDeleteBtn:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+
+.myCalendarSrOnly {
+  /* sr-only */
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+
+
+

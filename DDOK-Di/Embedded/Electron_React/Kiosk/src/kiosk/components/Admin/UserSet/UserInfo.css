@@ -1,0 +1,146 @@
+.adminUserInfoPage {
+  width: 1280px;
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(253, 251, 248);
+  font-family: 'YUniverse-L';
+}
+
+.adminUserInfoContainer {
+  background-color: #FFFFFF;
+  text-align: center;
+  justify-content: center;
+  padding: 25px 30px 45px 30px;
+  width: 360px;
+  height: auto;
+  border: solid 1px rgb(247, 244, 238);
+}
+
+
+.adminUserInfoTitleArea {
+  justify-content: right;
+  display: flex;
+  margin: 0px 0 0 0px;
+  }
+  .adminUserInfoTitleArea button{
+  float: left;
+  width: 30px;
+  height: 27px;
+  border-radius: 3px;
+  border: 1px solid #999999;
+  border: none;
+  padding: 0 0 0 0;
+  background-color: #fff;
+  cursor: pointer;
+  font-family: "YUniverse-L";
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  }
+  .adminUserInfoTitleArea button:hover {
+  transform: scale(1.1);
+  /* outline: solid 1px #333333; */
+  }
+  .adminUserInfoTitleArea img {
+  width: 18px;
+  }
+
+.adminUserInfoTitleArea {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px 0px 10px;
+}
+
+.adminUserInfoTitle {
+  color: #2d2d2d;
+  font-size: 28px;
+  margin-left: 10px;
+  margin: 25px 0 15px 18px;
+}
+
+.srOnly {
+  visibility :hidden;
+}
+
+
+.adminUserInfoRowsContainer {
+  display: flex;
+  padding: 0 20px 0 20px;
+}
+
+
+
+.adminUserInfoRowsContainer p {
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+  border-bottom: solid 1px rgb(247, 244, 238);
+  color: #2d2d2d;
+}
+
+.adminUserInfoLeftColumn {
+  text-align: left;
+  width: 150px;
+}
+
+.adminUserInfoRightColumn {
+  text-align: left;
+  width: 200px;
+}
+
+.adminUserInfoBtnArea {
+  justify-content: center;
+  display: flex;
+}
+
+.adminUserInfoEditBtn {
+  width: 61px;
+  height: 30px;
+  border-radius: 3px;
+  font-weight: 200;
+  font-size: 16px;
+  color: #333333;
+  border: 1px solid #999999;
+  /* box-shadow: inset 1px 1px 5px #333333; */
+  margin: 8px 10px 0 10px;
+  background-color: #ffffff;
+  cursor: pointer;
+  font-family: 'YUniverse-L';
+}
+.adminUserInfoEditBtn:hover {
+  transform: scale(1.05);
+  outline: solid 1px #333333;
+  /* filter: brightness(120%); */
+}
+
+.adminUserInfoEditBtn img{
+  margin-top: 2px;
+  height: 14px;
+}
+
+.adminUserInfoDeleteBtn {
+  width: 61px;
+  height: 30px;
+  border-radius: 3px;
+  font-weight: 200;
+  font-size: 16px;
+  color: #333333;
+  border: 1px solid #999999;
+  /* box-shadow: inset 1px 1px 5px #333333; */
+  margin: 8px 10px 0 10px;
+  background-color: #ffffff;
+  cursor: pointer;
+  font-family: 'YUniverse-L';
+}
+.adminUserInfoDeleteBtn:hover {
+  transform: scale(1.05);
+  outline: solid 1px #333333;
+  /* filter: brightness(120%); */
+}
+
+.adminUserInfoDeleteBtn img{
+  margin-top: 2px;
+  height: 16px;
+}

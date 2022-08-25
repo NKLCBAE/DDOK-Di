@@ -1,0 +1,142 @@
+.tabletViewStatusPage {
+  width: 1280px;
+  height: 720px;
+  display: flex;
+  /* justify-content: center; */
+  background-color: rgb(253, 251, 248);
+  font-family: "YUniverse-L";
+  flex-direction: column;
+}
+
+.tabletViewStatusTopArea {
+  width: 1160px;
+  height: 60px;
+  flex-direction: row;
+  display: flex;
+  padding: 0 0 0 0;
+  margin: 40px 0 0 60px;
+}
+
+.tabletViewStatusTopArea .LogoImg {
+  font-size: 60px;
+  width: 250px;
+  height: 65.93px;
+  cursor: pointer;
+}
+
+.tabletZoneBtnBox {
+  width: 920px;
+  height: 54px;
+  background-color: #ffffff;
+  margin: 3px 0 0 30px;
+  padding: 0 20px 0 20px;
+}
+
+.tabletZoneButtons {
+  height: 54px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 0 0 0;
+}
+
+/* Zone버튼 */
+.tabletZoneButtons button {
+  width: 135px;
+  height: 45px;
+  font-size: 20px;
+  border-radius: 3px;
+  border: none;
+  font-family: "YUniverse-L";
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.tabletZoneButtons button:hover {
+  font-weight: 600;
+  /* background-color : a(0.7); */
+}
+
+.tabletZoneButtons button p {
+  font-size: 26px;
+  font-family: "YUniverse-L";
+  margin: 0 10px 0 0;
+}
+
+.ZoneSelected {
+  background-color: #666666;
+  color: #ffffff;
+}
+
+.ZoneUnSelected {
+  background-color: #ffffff;
+  color: #2d2d2d;
+}
+
+.viewStatusToTHomeArea {
+  align-items: center;
+  justify-content: end;
+  display: flex;
+  margin: 0 0 0 48px;
+}
+
+.viewStatusToTHomeArea button {
+  width: 70px;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: 200;
+  font-size: 18px;
+  color: #ffffff;
+  border: 1px solid #444444;
+  padding: 0 0 0 0;
+  background-color: #444444;
+  cursor: pointer;
+  font-family: "YUniverse-L";
+}
+
+.viewStatusToTHomeArea p {
+  margin: 0px 0px 0px 0px;
+  overflow: visible;
+}
+
+.viewStatusToTHomeArea button:hover {
+  transform: scale(1.1);
+  /* outline: solid 1px #333333; */
+}
+
+.tabletViewStatusBottomArea {
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+  margin: 30px 0 0 0;
+}
+
+.tabletViewStatusBottomBox {
+  width: 1160px;
+  height: 560px;
+  /* border-radius: 20px; */
+  background-color: #ffffff;
+  margin: 30 px 0 0 60px;
+}
+
+.tabletViewStatusImgBtnArea {
+  height: 100px;
+  margin: 0 0 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabletViewStatusSeatImgArea {
+  margin: 15px 0 0 57px;
+  padding: 20px 0 0 0;
+}
+
+.tabletViewStatusRightArea {
+  width: 320px;
+  /* background-color: blue; */
+}

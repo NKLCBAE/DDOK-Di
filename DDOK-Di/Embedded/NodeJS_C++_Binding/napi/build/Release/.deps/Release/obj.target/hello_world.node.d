@@ -1,0 +1,1 @@
+cmd_Release/obj.target/./hello_world.node := g++ -o Release/obj.target/./hello_world.node -shared -pthread -rdynamic -m64  -Wl,-soname=hello_world.node -Wl,--start-group Release/obj.target/./hello_world/hello_world.o -Wl,--end-group 

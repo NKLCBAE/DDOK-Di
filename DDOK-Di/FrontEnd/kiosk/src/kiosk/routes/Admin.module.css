@@ -1,0 +1,64 @@
+.AdminHomePage {
+    width: 1280px;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(253, 251, 248); */
+    font-family: "YUniverse-L";
+}
+
+.adminHomeContainer {
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.adminElementBox {
+    text-align: center;
+    /* border: 1px solid #333333; */
+    margin: 0px 10px;
+}
+
+.userManagementImgArea {
+    width: 350px;
+    height: 270px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+.userManagementImgArea:hover {
+    transform: scale(1.02);
+}
+
+.userManagementImg {
+    width: 190px;
+}
+
+.seatArrangementImgArea {
+    width: 350px;
+    height: 270px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+.seatArrangementImgArea:hover {
+    transform: scale(1.02);
+}
+
+.seatArrangementImg {
+    width: 200px;
+}
+
+.adminTitles {
+    margin-top: 40px;
+    font-size: 30pt;
+    font-weight: 600;
+}
+
+.seatViewImg {
+    width: 200px;
+}

@@ -1,0 +1,178 @@
+.signupPage{
+    width: 1280px;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(253, 251, 248);
+    font-family: 'YUniverse-L';
+}
+
+.signupPage h1 {
+    margin-bottom: 30px;
+    color: #3d3d3d;
+    font-size: 32px;
+}
+
+.signupContainer {
+    background-color: #FFFFFF;
+    text-align: center;
+    justify-content: center;
+    /* border: solid 2px; */
+    padding: 20px 30px 30px 30px;
+    border: solid 1px rgb(247, 244, 238);
+}
+
+.signupBackBtnArea {
+    text-align: end;
+}
+
+.signupBackButton{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #333333;
+    border: 1px solid #333333;
+    background-color: white;
+    cursor: pointer;
+    font-family: 'YUniverse-L';
+}
+
+.signupBackButton:hover {
+    outline: 2px solid #333333;
+    font-weight: 600;
+}
+
+/* Login.css에도 있음 */
+.signupPage input{
+    width: 280px;
+    height: 47px;
+    border-radius: 3px;
+    /* box-shadow: inset 0px 0px 10px 0px rgb(230, 253, 248); */
+    border: solid 1px #cccccc;
+    outline: none;
+    background-color: #fff;
+    padding: 0 20px 0 0;
+    font-family: 'YUniverse-L';
+    /* margin-top: 25px; */
+}
+
+/* .signupPage input:hover {
+    box-shadow: inset 0px 0px 10px 0px rgb(217, 252, 245);
+} */
+
+.signupInputImage{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    padding: 14px 0 0 25px;
+}
+
+.signupContainer .name{
+    padding-left: 70px;
+    font-size: 20px;
+}
+
+.userName{
+    font-size: 20px;
+}
+
+.signupInputEmail,
+.signupPasswordCheck,
+.signupInputHeight {
+    padding-top: 22px;
+}
+
+.signupInputPassword{
+    padding-top: 22px;
+}
+
+
+.signupInputNameImg {
+    height: 22px;
+    position: absolute;
+    padding: 17px 0 0 25px;
+}
+
+.signupInputEmailImg {
+    height: 22px;
+    position: absolute;
+    padding: 17px 0 0 25px;
+}
+
+.signupInputPwdImg{
+    height: 24px;
+    position: absolute;
+    padding: 15px 0 0 25px;
+}
+
+.signupInputHeightImg{
+    height: 24px;
+    position: absolute;
+    padding: 15px 0 0 25px;
+}
+
+.signupSettingRecommendationArea {
+    display: flex;
+    justify-content: left;
+    margin: 10px 0 0 30px;
+}
+
+.signupSettingRecommendationArea p{
+    margin: 0 0 0 0;
+    font-size: 14px;
+    color: #4d4d4d;
+}
+
+.signupButton {
+    width: 380px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: #333333;
+    color: white;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    font-family: 'YUniverse-L';
+}
+
+.signupButton:hover {
+    /* outline: 2px solid #333333; */
+    transform: scale(1.02);
+}
+
+.signupButtonPlace{
+    padding-top: 25px;
+}
+
+.signupLink{
+    font-size: 15px;
+    font-weight: 400;
+    color: #3d3d3d;
+}
+
+.signupLink :link{
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+    margin: 0 0 0 5px;
+}
+
+.signupLink :link:hover {
+    font-weight: 600;
+}
+
+#emailTip{
+    margin: 0%;
+    padding-right: 10px;
+    float: right;
+    color: red;
+}
+
+#pwdTip{
+    margin: 0%;
+    padding-right: 10px;
+    float: right;
+    color: red;
+}

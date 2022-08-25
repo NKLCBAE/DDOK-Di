@@ -1,0 +1,56 @@
+.settingsModalPage .modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-family: 'YUniverse-L';
+}
+.settingsModalContainer {
+  width: 420px;
+  height: 200px;
+  background-color: #ffffff;
+  border: solid 1px rgb(247, 244, 238);
+  padding: 20px 30px 0px 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  /* max-width: 450px; */
+  /* 팝업이 열릴때 스르륵 열리는 효과 */
+  animation: modal-show 0.3s;
+}
+
+.settingsModalContainer p {
+  font-size: 24px;
+}
+
+.settingsModalPage .modal.openModal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* 팝업이 열릴때 스르륵 열리는 효과 */
+  animation: modal-bg-show 0.3s;
+}
+
+
+@keyframes modal-show {
+  from {
+    opacity: 0;
+    margin-top: -50px;
+  }
+  to {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+
+@keyframes modal-bg-show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

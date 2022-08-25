@@ -1,0 +1,136 @@
+.adminUserEditPage {
+  width: 1280px;
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(253, 251, 248);
+  font-family: 'YUniverse-L';
+}
+
+.adminUserEditContainer {
+  background-color: #FFFFFF;
+  text-align: center;
+  justify-content: center;
+  padding: 45px 30px 45px 30px;
+  width: 360px;
+  height: auto;
+  border: solid 1px rgb(247, 244, 238);
+}
+
+.adminUserEditTitleArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.adminUserEditTitle {
+  color: #2d2d2d;
+  font-size: 28px;
+  margin-left: 10px;
+  margin: 0px 0 20px 0px;
+}
+
+
+.adminUserEditRowsContainer {
+  display: flex;
+  padding: 0 20px 0 20px;
+}
+
+
+
+.adminUserEditLeftColumn p {
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+  border-bottom: solid 1px rgb(247, 244, 238);
+  color: #2d2d2d;
+}
+
+.adminUserEditRightColumn p {
+  margin: 10px 0 5px 0;
+  padding: 0px 0 6px 0;
+  border-bottom: solid 1px rgb(247, 244, 238);
+  color: #2d2d2d;
+}
+
+.adminUserEditRowsContainer input {
+  margin: 0px 0 0 0;
+  color: #2d2d2d;
+  width: 190px;
+  height: 27px;
+  border-radius: 2px;
+  padding-left: 10px;
+  border: solid 1px #b1b1b1;
+  background-color: #fff;
+  font-family: 'YUniverse-L';
+  font-size: 15px;
+}
+
+.adminUserEditRowsContainer input:focus{
+  outline: none;
+}
+
+.adminUserEditLeftColumn {
+  text-align: left;
+  width: 150px;
+  padding-top: 4px;
+}
+
+.adminUserEditRightColumn {
+  text-align: left;
+  width: 200px;
+}
+
+.adminUserEditBackBtnArea {
+  justify-content: center;
+  display: flex;
+}
+
+.adminUserEditSubmitBtn {
+  width: 60px;
+  height: 30px;
+  border-radius: 3px;
+  font-weight: 200;
+  font-size: 15px;
+  color: #333333;
+  border: 1px solid #999999;
+  /* box-shadow: inset 1px 1px 5px #333333; */
+  margin: 8px 10px 0 10px;
+  background-color: #ffffff;
+  cursor: pointer;
+  font-family: 'YUniverse-L';
+}
+.adminUserEditSubmitBtn:hover {
+  transform: scale(1.05);
+  outline: solid 1px #333333;
+  /* filter: brightness(120%); */
+}
+.adminUserEditSubmitBtn img{
+  margin-top: 2px;
+  height: 13px;
+}
+
+.adminUserEditCancelBtn {
+  width: 60px;
+  height: 30px;
+  border-radius: 3px;
+  font-weight: 200;
+  font-size: 15px;
+  color: #333333;
+  border: 1px solid #999999;
+  /* box-shadow: inset 1px 1px 5px #333333; */
+  margin: 8px 10px 0 10px;
+  background-color: #ffffff;
+  cursor: pointer;
+  font-family: 'YUniverse-L';
+}
+.adminUserEditCancelBtn:hover {
+  transform: scale(1.05);
+  outline: solid 1px #333333;
+  /* filter: brightness(120%); */
+}
+
+.adminUserEditCancelBtn img{
+  margin-top: 2px;
+  height: 11px;
+}

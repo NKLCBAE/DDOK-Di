@@ -1,0 +1,32 @@
+.clock{
+    position: fixed;
+    right: 20px;
+    top: 10px;
+    font-family: 'TmoneyRoundWindRegular';
+    color: #6D6D6D;
+}
+
+.show{
+    position: absolute;
+    font-size: 14pt;
+    justify-content: center;
+    font-family: 'YUniverse-L';
+    color: #FFFFFF;
+    width: 76px;
+    height: 36px;
+    border-radius: 5px;
+    background-color: #b1b1b1;
+    border: none;
+    cursor: pointer;
+    left: 75px;
+    bottom: 45px;
+}
+
+.show:hover{
+    transform: scale(1.05);
+    background-color: #666666;
+}
+
+.hide{
+    display: none;
+}
